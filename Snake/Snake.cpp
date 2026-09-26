@@ -6,7 +6,7 @@
 
 Snake::Snake() : heading(MyMath::Direction::North), size(2), capacity(2) {
     
-    parts = new SnakePart * [capacity]; 
+    parts = new SnakePart *[capacity];
 
 
     parts[0] = new SnakePart(MyMath::Point2D(40, 40), Play::Colour(0, 100, 0));
